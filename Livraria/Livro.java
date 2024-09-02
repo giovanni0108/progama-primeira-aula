@@ -1,18 +1,16 @@
 package Livraria;
 
-public class Livro {
+public class livro{
     String titulo;
     int numeropagina;
     double preco;
+    String genero;
+    int anoPublicaçao;
+    String autor;
 
-    void cadastrar(){
-        System.out.printLn("cadastrando o livro")
-    }
+    double frete = obj1.calcFrete(String[]cep);
+        System.out.printf("Frete %.2f",frete);
 
-    double calcFrete(String cep){
-        double frete = 0;
-        System.out.printLn(" calculando o frete paqra o cep+ cep");
-        return fret;
-    }
+} 
     
-}
+    
