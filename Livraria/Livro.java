@@ -1,14 +1,19 @@
-package Livraria;
+package Livro;
 
-public class livro{
+public class Livro{
     String titulo;
-    int numeropagina;
+    int numeroPagina;
     double preco;
     String genero;
     int anoPublicaçao;
     String autor;
 
-    double frete = obj1.calcFrete(String[]cep);
+    public Livro(String titulo, double preco){
+        this.titulo = titulo;
+        this.preco = preco;
+    }
+
+    double frete = obj1.calcFrete.(String[]cep);
         System.out.printf("Frete %.2f",frete);
 
 } 
